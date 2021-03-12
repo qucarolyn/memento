@@ -15,6 +15,7 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
+		font-weight: 500;
 		font: inherit;
 		vertical-align: baseline;
 	}
@@ -1656,12 +1657,13 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #5385c1;
-		font-weight: 300;
+		font-weight: 500;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			font-weight: 500;
 			color: inherit;
 			text-decoration: none;
 		}
@@ -2552,7 +2554,7 @@
 		background-color: #5a5a5a;
 		border-radius: 0;
 		border: 0;
-		color: #ffffff !important;
+		color: #f9f7f5 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 600;
@@ -2662,7 +2664,7 @@
 		button.special,
 		.button.special {
 			background-color: #5385c1;
-			color: #ffffff !important;
+			color: #f9f7f5 !important;
 		}
 
 			input[type="submit"].special:hover,
@@ -2692,7 +2694,7 @@
 		.button:disabled {
 			background-color: #9a9a9a !important;
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
-			color: #fff !important;
+			color: #f9f7f5 !important;
 			cursor: default;
 			opacity: 0.25;
 		}
@@ -2735,6 +2737,7 @@
 		top: 4em;
 		width: 100%;
 		z-index: 10001;
+		font-size: 1.25em;
 	}
 
 		#header .inner {
@@ -2743,7 +2746,7 @@
 		}
 
 		#header .logo {
-			color: #ffffff;
+			color: #f9f7f5;
 			display: inline-block;
 			font-weight: 600;
 			height: inherit;
@@ -2769,7 +2772,7 @@
 		}
 
 			#header a:hover {
-				color: #ffffff;
+				color: #f9f7f5;
 			}
 
 			#header a:last-child {
@@ -2934,7 +2937,7 @@
 /* Banner */
 
 	#banner {
-		padding: 12em 0 10em 0;
+		padding: 12em 0 5em 0;
 		background-image: url('../../images/banner.jpg');
 		background-size: cover;
 		background-position: top;
@@ -2945,9 +2948,9 @@
 	}
 
 		#banner h1 {
-			font-size: 3.5em;
-			font-weight: 100;
-			color: #fff;
+			font-size: 4.5em;
+			font-weight: 900;
+			color: #f9f7f5;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
@@ -2990,6 +2993,7 @@
 			}
 
 				#banner h1 {
+					font-weight: 500;
 					font-size: 2.5em;
 				}
 
